@@ -1,0 +1,53 @@
+body {
+    background-color: #FFCCCC; /* Vermelho claro */
+    color: black;
+    font-family: Arial, sans-serif;
+  }
+  
+  .header {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .header h1 {
+    font-size: 4em; /* Tamanho grande */
+  }
+  
+  .header p {
+    font-size: 1.2em;
+  }
+  
+  #toggleContent {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: darkred;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #toggleContent:hover {
+    background-color: red;
+  }
+  
+  #content {
+    display: none;
+    padding: 20px;
+  }
+  
+  #content h2 {
+    font-size: 2.5em; /* Tamanho grande */
+  }
+  
+  #content p {
+    font-size: 1.2em;
+  }
+  
+  #content iframe {
+    width: 100%;
+  }
+  
+  #content img {
+    width: 100%;
+  }
+  
